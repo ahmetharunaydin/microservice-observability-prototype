@@ -13,6 +13,11 @@ A lightweight, containerized observability pipeline designed to monitor a Python
 2. **Prometheus:** Scrapes time-series metrics from the Flask application every 5 seconds.
 3. **Grafana:** Connects to Prometheus as a data source to visualize request counts and system health metrics in real time.
 
+##  Dashboard Preview
+Below is the live Grafana dashboard capturing real-time traffic and request count metrics (`app_requests_total`) from the Flask microservice:
+
+![Grafana Dashboard](dashboard.png)
+
 ##  How to Run
 Ensure you have Docker and Docker Compose installed. Then, execute:
 
